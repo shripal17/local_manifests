@@ -1,11 +1,10 @@
-# Download Android source with patches(local_manifests)
- Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r46
- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b oreo
+# Download LineageOS source with patches(local_manifests)
+ Refer https://github.com/LineageOS/android/tree/lineage-15.1
+ $ git clone https://github.com/shripal17/local_manifests .repo/local_manifests -b oreo
  $ repo sync
 
 # Build for Raspberry Pi3
- https://github.com/android-rpi/device_brcm_rpi3/tree/oreo
+ https://github.com/shripa17/device_brcm_rpi3/tree/oreo
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
 
